@@ -173,7 +173,8 @@ def get_UserGeneratedRequests(request):
 
     return Response({
         "status": 200,
-        "data": serializer.data
+        "data": serializer.data,
+        "msg": "get data"
     })
 
 
